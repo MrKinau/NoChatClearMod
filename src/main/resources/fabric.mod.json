@@ -16,7 +16,7 @@
 	"environment": "client",
 	"entrypoints": {
 		"main": [
-          "dev.kinau.nochatclearmod.NoChatClearMod"
+			"dev.kinau.nochatclearmod.NoChatClearMod"
 		]
 	},
 	"mixins": [
