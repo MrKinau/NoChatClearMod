@@ -1,31 +1,30 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "nochatclearmod",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "No Chat Clear",
+	"description": "This mod prevents your chat from being cleared!",
 	"authors": [
 		"MrKinau"
 	],
 	"contact": {
-		"homepage": "https://github.com/MrKinau/modid",
-		"repo": "https://github.com/MrKinau/modid"
+		"homepage": "https://github.com/MrKinau/NoChatClear",
+		"repo": "https://github.com/MrKinau/NoChatClear"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/nochatclearmod/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"main": [
-			"dev.kinau.modid.ExampleMod"
+          "dev.kinau.nochatclearmod.NoChatClearMod"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json"
+		"nochatclearmod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
-		"minecraft": "~1.21.4",
-		"java": ">=21",
-		"fabric-api": "*"
+		"minecraft": ">=1.21",
+		"java": ">=21"
 	}
 }
