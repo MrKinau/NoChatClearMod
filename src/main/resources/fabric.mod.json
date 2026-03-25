@@ -1,30 +1,30 @@
 {
-	"schemaVersion": 1,
-	"id": "nochatclearmod",
-	"version": "${version}",
-	"name": "No Chat Clear",
-	"description": "This mod prevents your chat from being cleared!",
-	"authors": [
-		"MrKinau"
-	],
-	"contact": {
-		"homepage": "https://github.com/MrKinau/NoChatClear",
-		"repo": "https://github.com/MrKinau/NoChatClear"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/nochatclearmod/icon.png",
-	"environment": "client",
-	"entrypoints": {
-		"main": [
-			"dev.kinau.nochatclearmod.NoChatClearMod"
-		]
-	},
-	"mixins": [
-		"nochatclearmod.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.16.9",
-		"minecraft": ">=1.21",
-		"java": ">=21"
-	}
+  "schemaVersion": 1,
+  "id": "nochatclearmod",
+  "version": "${version}",
+  "name": "No Chat Clear",
+  "description": "This mod prevents your chat from being cleared!",
+  "authors": [
+    "MrKinau"
+  ],
+  "contact": {
+    "homepage": "https://github.com/MrKinau/NoChatClear",
+    "repo": "https://github.com/MrKinau/NoChatClear"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/nochatclearmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "dev.kinau.nochatclearmod.NoChatClearMod"
+    ]
+  },
+  "mixins": [
+    "nochatclearmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": ">=1.21.9-beta.2",
+    "java": ">=21"
+  }
 }
